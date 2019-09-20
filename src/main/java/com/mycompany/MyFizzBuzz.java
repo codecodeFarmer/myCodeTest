@@ -11,7 +11,6 @@ package com.mycompany;
 public class MyFizzBuzz {
 
 
-	
 	/**
 	 * <p>从1遍历100 ，如果遇到数字为3的倍数的时候，打印“Fizz”替代数字，
 	 *     如果5的倍数用“Buzz”代替。
