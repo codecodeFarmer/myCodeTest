@@ -6,8 +6,10 @@ package com.mycompany;
  * @author 黄晓锋
  * @date 2019-06-27 下午6:30:17
  * @version V1.0
+ * update
  */
 public class MyFizzBuzz {
+
 
 	
 	/**
