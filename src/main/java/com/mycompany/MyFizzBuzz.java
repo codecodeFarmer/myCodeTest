@@ -12,8 +12,8 @@ public class MyFizzBuzz {
 	
 	/**
 	 * <p>从1遍历100 ，如果遇到数字为3的倍数的时候，打印“Fizz”替代数字，
-	 *     如果5的倍数用“Buzz”代替，
-	 *     既是3的倍数又是5的倍数打印“FizzBuzz” ，否则打印原数字
+	 *     如果5的倍数用“Buzz”代替。
+	 *     既是3的倍数又是5的倍数打印“FizzBuzz” ，否则打印原数字 .
 	 * </p>
 	 */
 	public static void insteadFizzBuzzFrom1To100(){
