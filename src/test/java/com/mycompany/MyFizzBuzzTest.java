@@ -12,6 +12,7 @@ import org.junit.Test;
  */
 public class MyFizzBuzzTest {
 
+
 	/**
 	 * <p>测试MyFizzBuzz的insteadSuitFizzBuzz方法</p>
 	 */
