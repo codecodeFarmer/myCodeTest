@@ -1,12 +1,15 @@
 package com.mycompany;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  * @ClassName: MyFizzBuzz
  * @Description:FizzBuzz替换
  * @author 黄晓锋
  * @date 2019-06-27 下午6:30:17
  * @version V1.0
- * update 1112
+ * update 11
  */
 public class MyFizzBuzz {
 
@@ -61,7 +64,27 @@ public class MyFizzBuzz {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		insteadFizzBuzzFrom1To100();
+		//insteadFizzBuzzFrom1To100();
+		System.out.println("===begin====" + translateTime(new
+				Date()));
+		Object synObject = new Object();
+		synchronized (synObject){
+			try {
+				synObject.wait(1000);
+			}catch (Exception e){
+
+			}
+		}
+		System.out.println("=====end=====" + translateTime(new
+				Date()));
+
+	}
+
+	private static String translateTime(Date date) {
+		String msg="";
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
+		msg+="["+sdf.format(date)+"]";
+		return msg;
 	}
 
 }
